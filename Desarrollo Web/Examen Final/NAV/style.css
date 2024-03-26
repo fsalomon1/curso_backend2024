@@ -1,0 +1,32 @@
+nav{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.topicos{
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+    text-decoration: none;
+}
+
+li, a{
+    color: beige;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    margin: 0px 10px;
+    text-transform: uppercase;
+}
+
+a{
+    padding: 10px 12px;
+}
+
+a:hover{
+    background-color: #034574;
+    transition: 0.3s;
+    border-radius: 20px;
+}

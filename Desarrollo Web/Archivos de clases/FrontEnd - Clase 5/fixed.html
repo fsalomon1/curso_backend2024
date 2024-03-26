@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .fija{
+            height: 50px;
+            background-color: brown;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 2;
+
+            transform: translateX(50px);
+        }
+
+        .normal{
+            height: 51px;
+            background-color: cadetblue;
+            z-index: 1;
+        }
+
+        .fija2{
+            height: 50px;
+            background-color: brown;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 2;
+
+            transform: translateX(50px);
+        }
+
+        .normal2{
+            height: 51px;
+            background-color: cadetblue;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    <div class="fija"></div>
+    <div class="normal"></div>
+    -->
+    <div class="fija2"></div>
+    <div class="normal2"></div>
+</body>
+</html>

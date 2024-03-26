@@ -1,0 +1,92 @@
+/* seleccionamos la etiqueta body, que es nuestra "mesa de trabajo" */
+body{
+    margin: 0;              /* <- reseteamos los márgenes que están por defecto */
+    background: #eee;     /* <- pintamos nuestra área de trabajo de gris claro */
+
+    /* Esto afecta los estilos del texto, en general y para todo el proyecto*/
+    color: #333;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* seleccionamos y modificamos todas las etiquetas p que se encuentran en nuestra mesa de trabajo */
+p{
+    background: #000;   /* fondo de color negro*/
+    font-size: 2rem;      /* seteamos la fuente a 2 unidades relativas a la declarada en body, esto da 32px */
+    color: #fff;        /* cambiamos el color por defecto de la fuente y la ponemos blanca */
+}
+
+/* declaramos una variación a unos de los parrafos, comenzamos el nombre con un punto */
+/* todas las modificaciones debajo, "pisan" las configuraciones de arriba */
+/* EL ORDEN ES IMPORTANTE */
+
+.sin-margen{
+    margin: 0;
+    padding: 10px;
+    background: #333;
+}
+
+.con-sombra{
+    margin: 10px;
+    padding: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    background: rgb(133, 104, 26);
+}
+
+/* 
+    Los márgenes pueden escribirse de varias formas, depende de la utilización 
+
+    margin: 5px;
+    margin: 5px 5px; <- esto dice que hay 5 pixeles arriba y abajo, luego 5 pixeles izquierda y derecha
+    margin: 5px 5px 5px 5px; <- esto maneja los margenes individuales, arriba, derecha , abajo, izquierda
+
+    otra forma de escribirse es con la propiedad individual
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+    Todo lo anterior da como resultado un margen de 5px y son todas equivalentes
+    Lo mismo se aplica al padding
+
+*/
+
+.con-borde{
+    border: 3px solid #FF0;
+}
+.con-borde-punteado{
+    border: 3px dotted #F0F;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.con-borde-distinto{
+    border: 3px solid #F00;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+
+    border-top-width: 5px;          /* <- modificamos solo el ancho del borde superior */
+    border-bottom-style: dashed;    /* <- modificamos el estilo del borde inferior */
+    border-right-color: #00F;     /* <- modificamos solo el color del borde derecho*/
+}
+
+/*
+    El borde puede escribirse de varias formas o modificando solo algunas propiedades
+    El estilo anterior muestra algunas de las posibilidades
+
+*/
+
+
+.adaptado{
+    text-decoration: none;
+    color: #F00;
+    font-size: 1rem;
+}
+/*
+    Los links tienen por defecto una línea debajo, generalmente se retira por cuestiones estéticas
+    Si se requiere que ningun link posea línea debajo se modifica la etuqieta completa
+
+    a{
+        text-decoration: none;
+    }
+*/

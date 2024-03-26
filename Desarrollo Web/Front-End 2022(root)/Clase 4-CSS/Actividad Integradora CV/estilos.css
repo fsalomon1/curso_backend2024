@@ -1,0 +1,52 @@
+* { box-sizing: border-box; }
+
+
+header{
+    background-color: rgba(109,76,59,255);
+    height: 188.19px;
+    margin: 0px;
+    display: flex;
+
+}
+
+.foto{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    left: 840px;
+
+}
+
+
+
+h1{
+
+    height: 50px;
+    text-align: center;
+    background-color: rgba(70,72,66,255) ;
+    top: 188px;
+    margin-bottom: 200px;
+    margin-top: 0px;
+    color: rgba(204,186,148,255);
+    left: 213px;
+    
+}
+h2{
+    background-color:rgba(126,120,94,255);
+    color: rgba(204,186,148,255);
+}
+
+footer{
+    background-color: rgba(109,76,59,255);
+
+    height: 37px;
+    left: 0px;
+    top: 987px;
+}
+
+.boss{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}

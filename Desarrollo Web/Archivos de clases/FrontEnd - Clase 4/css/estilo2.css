@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-color: #CCC;
+}
+
+.rectangulo{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    margin-bottom: 50px;
+}
+.flotante{
+    background-color: brown;
+    width: 50%;
+    height: 100%;
+}
+.rectangulo2{
+    height: 50px;
+    max-width: 800px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,22 @@
+.mi-elemento {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 100%;
+    animation: achicando 1s infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes achicando {
+    0% {
+        background-color: salmon;
+    }
+    
+    100% {
+        background-color: peachpuff;
+        height: 100px;
+        width: 100px;
+        opacity: 0.5;
+    }
+}

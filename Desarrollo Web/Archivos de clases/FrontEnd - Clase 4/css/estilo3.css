@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-color: #CCC;
+}
+
+.rectangulo{
+    width: 500px;
+    height: 250px;
+    border: 1px solid #333;
+    background: url(../images/vibora-verde.png), url(../images/vibora-naranja.png);
+    background-repeat: repeat-x, no-repeat;
+    background-position: center center, right top;
+    background-color: #000;
+    justify-content: space-between;
+}
+
+
+
+img{
+    width: 25%;
+    filter: drop-shadow(3px 3px 2px #000)
+}

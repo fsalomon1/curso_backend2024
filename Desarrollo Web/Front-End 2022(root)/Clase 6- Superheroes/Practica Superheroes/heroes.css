@@ -1,0 +1,66 @@
+.descuento{
+    background-color: #1cd1b0;
+    padding: 15px;
+}
+.titulo{
+    background-color: #00669f;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+article.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    width: 350px;
+    height: 500px;
+}
+.logo{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 26.25px;
+}
+.fondo{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    width: 350px;
+    height: 200px;
+}
+.foto{
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    left: 115px;
+    bottom: 80px;
+    width: 120px;
+    height: 120px;
+}
+
+div p, h2, button{
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+}

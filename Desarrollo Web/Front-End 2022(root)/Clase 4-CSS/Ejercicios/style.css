@@ -1,0 +1,12 @@
+p {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+}

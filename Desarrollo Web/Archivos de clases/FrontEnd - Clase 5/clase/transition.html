@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .contenedor, .caja{
+            background-color: brown;
+            padding: 5px;
+        }
+
+        .contenedor{
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .caja{
+            background-color: #AAA;
+            max-width: 500px;
+            margin: 0  auto;
+            text-align: left;
+        }
+        .variante{
+            margin: 0 auto 0 0;
+            background-color: darkblue;
+        }
+
+        /************************************************************************/
+
+        .recuadro{
+            width: 50px;
+            height: 50px;
+            background-color: darkcyan;
+            margin: 0 auto;
+            transition: 1s linear opacity, 1s linear transform, 1s linear background, 1s linear border-radius;
+            transition-delay: 0.5s, 1s, 3s, 3s;
+            
+        }
+
+        .recuadro:hover{
+            background-color: rgba(255, 0, 255, 0.5);
+            border-radius: 10px;
+            transform: rotate(45deg) scale(1.5);
+            
+        }
+
+        .contenedor-gris{
+            background-color: #AAA;
+            padding: 5px;
+        }
+        
+        .contenedor-gris .cajita{
+            width: 50px;
+            height: 50px;
+            background-color: darkcyan;
+            
+            display: inline-block
+        }
+
+        .contenedor-gris .cajita{
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 0, 255, 0.5);
+        }
+
+        .contenedor-gris .azul{
+            background-color: rgba(0, 0, 255, 0.5);
+        }
+
+
+
+        #menu{
+            background-color: rosybrown;
+        }
+
+
+        /*
+        .cajita{
+            width: 50px;
+            height: 50px;
+            background-color: darkcyan;
+            
+            display: inline-block
+        }
+        */
+
+    </style>
+
+</head>
+<body>
+
+    
+    <div class="contenedor">
+
+        <div class="caja">Texto</div>
+        <div class="caja variante">Texto</div>
+    </div>
+
+
+    <div class="contenedor">
+        <div class="recuadro"></div>
+    </div>
+
+
+    <div class="menu" id="menu">
+        <div class="cajita">1</div>
+        <div class="cajita">1</div>
+        <div class="cajita">1</div>
+        <div class="cajita">1</div>
+    </div>
+
+    <div class="contenedor-gris" id="distinto" data-loquequieras="valores">
+        <div class="cajita azul">1</div>
+        <div class="cajita azul">1</div>
+        <div class="cajita azul">1</div>
+        <div class="cajita azul">1</div>
+    </div>
+
+    <div class="cajita variante"></div>
+
+</body>
+</html>
